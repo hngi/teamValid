@@ -55,7 +55,7 @@ a{
 
 .form-section .the-forms{
     display: flex;
-    overflow-x: scroll;
+    overflow-x: hidden;
     max-width: 320px;
 }
 
