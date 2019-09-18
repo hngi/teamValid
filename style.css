@@ -1,0 +1,66 @@
+body{
+	font-family: verdana;
+	font-size: 16px;
+	
+}
+.picture-design{
+	background-image: url("valid.png");
+	height: 500px;
+	background-size: 450px;
+	background-repeat: no-repeat;	
+	margin-top: 100px;
+}
+.logo{
+	background-image: url("valid2.png");
+	height: 180px;
+	background-size: 350px;
+	background-repeat: no-repeat;
+	/*width: 80%;*/
+	margin-bottom: 70px;
+
+}
+
+.input-group{
+	text-shadow: 0px !important;
+}
+
+input{
+	border-top: 0px !important;
+	border-left: 0px !important;
+	border-radius: 0px !important;
+}
+
+.input-group-addon{
+	border-top: 0px !important;
+	background-color: transparent;
+	border: 0px;
+	border-bottom: 1px solid #ccc;
+}
+
+span{
+	margin-left: 70px;
+}
+
+.remember{
+	margin-left: 10px;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.sign{
+	border-radius: 30px !important;
+	padding: 2px 50px;
+	margin: auto 100px;
+}
+
+.btn-primary{
+	background-color: #123EED !important;
+}
+
+form{
+	margin-bottom: 50px;
+}
+
+a{
+	color: #123EED !important;
+	
+}
