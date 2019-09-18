@@ -47,10 +47,10 @@ a{
     padding: 0 5rem;
 }
 
-.form-section>img{
-    width: 100px;
-    height: 100px;
-    margin-bottom: 2rem;
+.form-section img{
+    width: 140px;
+    height: 140px;
+    margin-bottom: 1rem;
 }
 
 .form-section .the-forms{
@@ -71,6 +71,18 @@ a{
 .form-section .the-forms .sign-up-form{
     text-align: center;
 }
+
+.form-section .the-forms .sign-up-form .signup-form-heading{
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.form-section .the-forms .sign-up-form .signup-form-sunheading{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
 
 .animation-signin-out{
     transform: translateX(-320px);
@@ -139,11 +151,11 @@ input:-internal-autofill-selected {
     position: absolute;
     top: -2px;
     left: 0;
+    color: rgba(0, 0, 0, 0.3);
 }
 
 .the-forms .form-group label{
     left: 1.7rem;
-    font-family: Nunito;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -172,7 +184,7 @@ input:-internal-autofill-selected {
     background-color: #123EED;
     color: white;
     margin: auto;
-    width: 226px;
+    width: 210px;
     height: 45px;
     cursor: pointer;
     border-radius: 70px;  
@@ -205,5 +217,17 @@ button ~ p{
 button ~ p>a{
     color: #123EED;
 }
+
+.terms-and-con{
+    text-align: start;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+}
+
+.terms-and-con a{
+    color: rgb(52, 160, 231);
+    font-size: 14px;
+}
+
 
 
