@@ -1,60 +1,78 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title id="title">teamValid | Sign in</title>
+    <link rel="stylesheet" href="styles/font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
 
-    <title>TeamValid | Loginpage</title>
-  </head>
-  <body>
-   <div class="container ">
-     <div class="row mt-3 d-flex">
-       <div class="col-lg-4 m-auto">
-         <div class="card">
-           <div class="card-header">
-             LOGIN
-           </div>
-           <div class="card-body">
-             <div class="login">
-           <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <span class="input-group-text" id="basic-addon1"><i class="fa fa-user"></i></span>
-          </div>
-          <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+<body>
+    <div class="container">
+        <div class="big-image">
+            <img src="img/signup-design.png" alt="img">
         </div>
-
-        
-
-         </div>
-         <div class="login">
-           <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <span class="input-group-text" id="basic-addon1"><i class="fa fa-lock"></i></span>
-          </div>
-          <input type="Password" class="form-control" placeholder="Password" aria-label="Username" aria-describedby="basic-addon1">
+        <div class="form-section">
+            <div class="the-forms" id="the-forms">
+                <form action="" id="sign-in-form" class="sign-in-form">
+                    <img src="img/logo.svg" alt="logo-image">
+                    <div class="form-group">
+                        <i class="fas fa-user fa-sm  "></i>
+                        <input type="text" name="username" id="username" required>
+                        <label for="username">Username</label>
+                    </div>
+                    <div class="form-group">
+                        <i class="fas fa-lock fa-sm  "></i>
+                        <input type="password" name="signin-password" id="signin-password" required>
+                        <label for="signin-password">Password</label>
+                    </div>
+                    <div class="rem-me-and-forget-password">
+                        <div class="c-remember-me">
+                                <input type="checkbox" name="remember-me" id="remember-me">
+                                <label for="remember-me">Remember me</label>
+                        </div>
+                        <a href="#">Forget password?</a>
+                    </div>
+                    <button type="submit">Sign in</button>
+                    <p>Don't have an account yet? <a href="#sign-up-form-link" id="sign-up-form-link">SIGN UP</a></p>
+                </form>
+                <form action="" id="sign-up-form" class="sign-up-form">
+                    <h2 class="signup-form-heading">SIGN UP</h2>
+                    <p class="signup-form-subheading">It’s free and only takes a minute</p>
+                    <div class="form-group">
+                        <i class="fas fa-user fa-sm  "></i>
+                        <input type="text" name="signup-username" id="signup-username" required>
+                        <label for="signup-username">Username</label>
+                    </div>
+                    <div class="form-group">
+                        <i class="fas fa-envelope fa-sm  "></i>
+                        <input type="text" name="email" id="email" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <i class="fas fa-user-lock fa-sm  "></i>
+                        <input type="password" name="signup-password" id="signup-password" required>
+                        <label for="signup-password">Enter password</label>
+                    </div>
+                    <div class="form-group">
+                            <i class="fas fa-user-lock fa-sm  "></i>
+                        <input type="password" name="signup-confirm-password" id="signup-confirm-password" required>
+                        <label for="signup-confirm-password">Confirm Password</label>
+                    </div>
+                    <p class=terms-and-con>
+                        By clicking the sign up button you agree to our <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a>
+                    </p>
+                    <button type="submit">Sign up</button>
+                    <p>Already have an account? <a href="#sign-in-form" id="sign-in-form-link">Log in</a></p>
+                </form>
+            </div>
         </div>
+    </div>
 
-        
+    <script src="scripts/app.js"></script>
+</body>
 
-         </div>
-           </div>
-           <div class="card-footer">
-             <button type="submit" class="btn btn-primary">Log in</button>
-           </div>
-         </div>
-         <div class="mt-3">Don't have an account? <a href="register.html">register here</a></div>
-       </div>
-     </div>
-   </div>
-
-   
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
 </html>
