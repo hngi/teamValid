@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition: .5s;
+}
+body,
+html{
+    color: #2D2D2D;
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+a{
+    color: #2D2D2D;
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.big-image {
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.big-image img{
+    width: 75%;
+    height: 75%;
+    margin: auto;
+}
+
+.form-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px solid silver;
+    padding: 0 5rem;
+}
+
+.form-section>img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 2rem;
+}
+
+.form-section .the-forms{
+    display: flex;
+    overflow-x: scroll;
+    max-width: 320px;
+}
+
+.form-section .the-forms::-webkit-scrollbar{
+
+}
+
+
+.form-section .the-forms .sign-in-form{
+    text-align: center;
+}
+
+.form-section .the-forms .sign-up-form{
+    text-align: center;
+}
+
+.animation-signin-out{
+    transform: translateX(-320px);
+}
+
+.animation-signin-in{
+    transition-delay: .7s;
+    transform: translateX(0);
+}
+
+
+.animation-signup-out{
+    transform: translateX(0px);
+}
+
+.animation-signup-in{
+    transition-delay: .7s;
+    transform: translateX(-320px);
+}
+
+@keyframes {
+    
+}
+
+.the-forms .form-group{
+    display: block;
+    position: relative;
+}
+
+.the-forms .form-group input:not(:first-child){
+    display: block;
+    border: none;
+    border-bottom: 1px solid #2D2D2D;
+    width: 320px;
+    padding: 0.1rem 1.5rem;
+    padding-left: 1.7rem;
+    margin: 3rem auto;
+    font-size: 16px;
+}
+
+.the-forms .sign-up-form .form-group input:first-child{
+
+}
+
+
+
+/* Restyle for user-agent autofill style */
+
+input:-internal-autofill-selected {
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+.the-forms .form-group input:focus,
+.the-forms .form-group input:active{
+    outline: none;
+}
+
+.the-forms .form-group input:focus ~ label,
+.the-forms .form-group input:valid ~ label {
+    font-size: 12px;
+    top: -15px;
+    color: #123EED;
+}
+
+.the-forms .form-group label,
+.the-forms .form-group i {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.the-forms .form-group label{
+    left: 1.7rem;
+}
+
+.the-forms .form-group i {
+    left: 0.3rem;
+}
+
+.the-forms .rem-me-and-forget-password{
+    display: flex;
+    justify-content: space-between;
+}
+
+.the-forms button{
+    margin: auto;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    border: none;
+    background-color: #123EED;
+    color: white;
+    margin: auto;
+    width: 200px;
+    cursor: pointer;
+}
+
+.the-forms .sign-in-form button{
+    margin-top: 1.6rem;
+}
+
+.the-forms .sign-up-form button{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#signup-confirm-password{
+    margin-bottom: 1rem; 
+}
+
+.the-forms .sign-in-form button ~ p{
+    margin-top: 3rem;
+}
+
+button ~ p{
+    font-size: 14px;
+}
+
+button ~ p>a{
+    color: #123EED;
+}
+
+
