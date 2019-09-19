@@ -43,7 +43,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-left: 2px solid silver;
+    border-left: 1px solid silver;
     padding: 0 5rem;
 }
 
@@ -55,7 +55,7 @@ a{
 
 .form-section .the-forms{
     display: flex;
-    overflow-x: scroll;
+    overflow-x: hidden;
     max-width: 320px;
 }
 
@@ -172,6 +172,8 @@ input:-internal-autofill-selected {
     justify-content: space-between;
 }
 
+
+
 .the-forms .rem-me-and-forget-password a {
     color: #333333;
 }
@@ -229,5 +231,19 @@ button ~ p>a{
     font-size: 14px;
 }
 
+@media (max-width: 530px){
+    .big-image{
+        width: 0;
+    }
+    .the-form{
+        margin-top: 2rem;
+    }
+    .form-section .the-forms{
+        max-width: 250px;
+    }
+    .the-forms .form-group input{
+        width: 250px;
+    }
+}
 
 
