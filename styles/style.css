@@ -43,7 +43,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-left: 2px solid silver;
+    border-left: 1px solid silver;
     padding: 0 5rem;
 }
 
