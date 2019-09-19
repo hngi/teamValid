@@ -230,11 +230,13 @@ button ~ p>a{
     font-size: 14px;
 }
 
+/* Responsive Style */
+
 @media (max-width: 530px){
     .big-image{
         width: 0;
     }
-    .the-form{
+    .the-forms{
         margin-top: 2rem;
     }
     .form-section .the-forms{
@@ -243,6 +245,44 @@ button ~ p>a{
     .the-forms .form-group input{
         width: 250px;
     }
+    .the-forms .sign-in-form button ~ p {
+        margin-right: 0.6rem;
+    }
 }
+
+@media (max-width: 768px){
+    .big-image{
+        width: 100%;
+        height: 39%;
+        margin-top: 335px;
+    }
+    .the-forms{
+        margin-top: 9rem;
+    }
+    .form-section .the-forms{
+        max-width: 250px;
+    }
+    .the-forms .form-group input{
+        width: 250px;
+    }
+}
+
+@media (max-width: 1024px){
+    .big-image{
+        width: 100%;
+        height: 50%;
+        margin-top: 345px;
+    }
+    .the-forms{
+        margin-top: 9rem;
+    }
+    .form-section .the-forms{
+        max-width: 250px;
+    }
+    .the-forms .form-group input{
+        width: 250px;
+    }
+}
+
 
 
