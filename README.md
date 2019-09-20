@@ -7,7 +7,7 @@ It allows user input and doesn't store information in database it uses, a JSON f
 Just clone / download the repository, move the folder into your xampp or wamp folder, cause it runs on php.
 In your browser just type **localhost/teamValid**
 
-You can also visit the hosted one on [Team Valid](https://cls-teamvalid.000webhostapp.com/)
+You can also visit the hosted one on [Team Valid](https://teamvalid.000webhostapp.com/)
 
 
 
